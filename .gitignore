@@ -1,0 +1,28 @@
+trucks_frontend/.DS_Store
+trucks_frontend/node_modules
+trucks_frontend/dist
+
+
+# local env files
+trucks_frontend/.env.local
+trucks_frontend/.env.*.local
+
+# Log files
+trucks_frontend/npm-debug.log*
+trucks_frontend/yarn-debug.log*
+trucks_frontend/yarn-error.log*
+trucks_frontend/pnpm-debug.log*
+
+# Editor directories and files
+trucks_frontend/.idea
+trucks_frontend/.vscode
+trucks_frontend/*.suo
+trucks_frontend/*.ntvs*
+trucks_frontend/*.njsproj
+trucks_frontend/*.sln
+trucks_frontend/*.sw?
+
+trucks_backend/trucks_backend/bin
+trucks_backend/trucks_backend/obj
+trucks_backend/TrucksAPITester/bin
+trucks_backend/TrucksAPITester/obj

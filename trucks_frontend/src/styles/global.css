@@ -1,0 +1,35 @@
+:root {
+    --color-background: white;
+    --color-text: black;
+    --color-background-nav: whitesmoke;
+    --color-text-nav: rgb(0, 0, 0);
+}
+
+html,
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+input,
+select {
+    padding: 4px;
+}
+
+button {
+    padding: 8px;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
